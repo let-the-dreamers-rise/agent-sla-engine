@@ -1,6 +1,17 @@
 # AgentSLA Frontend
 
 A minimal React frontend for interacting with the AgentSLA smart contract using wagmi and ethers.js.
+## 🚀 Judge Quick Start (30 seconds)
+
+1. Open the demo URL
+2. No wallet required — Demo Mode activates automatically
+3. Click through the SLA lifecycle:
+   CREATED → BIDDING → VERIFYING → RESOLVED
+4. Observe escrow, verifier staking, and resolution logic
+
+⚠️ This demo runs on a local Ethereum simulation for safety.
+Production configuration uses the official MNEE contract on Ethereum mainnet:
+0x8ccedbAe4916b79da7F3F612EfB2EB93A2bFD6cF
 
 ## 🎮 Demo Mode
 
