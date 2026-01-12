@@ -94,7 +94,22 @@ npm install
 ```bash
 npm start
 ```
+## 🔁 Switching from Mock MNEE to Real MNEE (Production)
 
+This project is designed so that **no smart contract or frontend logic changes are required** to move from Demo Mode to production.
+
+The demo uses a **Hardhat-deployed ERC-20 mock token** that implements the **same ERC-20 interface** as the official MNEE contract.
+
+To use **real MNEE on Ethereum mainnet**, only the token address and environment flag must be changed.
+
+### Steps
+
+1. **Set the environment variable**
+   ```bash
+   REACT_APP_USE_MAINNET=true
+2.Ensure the MNEE token address is set to the official mainnet contract
+   0x8ccedbAe4916b79da7F3F612EfB2EB93A2bFD6cF
+3.Deploy or point to a production AgentSLA contract on Ethereum mainnet
 ## Usage
 
 ### For Managers:
