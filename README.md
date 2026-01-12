@@ -107,9 +107,11 @@ To use **real MNEE on Ethereum mainnet**, only the token address and environment
 1. **Set the environment variable**
    ```bash
    REACT_APP_USE_MAINNET=true
-2.Ensure the MNEE token address is set to the official mainnet contract
+2. **Ensure the MNEE token address is set to the official Ethereum mainnet contract**
+   ```text
    0x8ccedbAe4916b79da7F3F612EfB2EB93A2bFD6cF
-3.Deploy or point to a production AgentSLA contract on Ethereum mainnet
+
+3. **Deploy or point to a production AgentSLA contract on Ethereum mainnet**
 ## Usage
 
 ### For Managers:
