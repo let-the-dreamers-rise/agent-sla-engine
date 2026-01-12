@@ -111,7 +111,8 @@ To use **real MNEE on Ethereum mainnet**, only the token address and environment
    ```text
    0x8ccedbAe4916b79da7F3F612EfB2EB93A2bFD6cF
 
-3. **Deploy or point to a production AgentSLA contract on Ethereum mainnet**
+3. **Deploy or point to a production AgentSLA contract on Ethereum mainnet.No other code changes required**
+   
 ## Usage
 
 ### For Managers:
